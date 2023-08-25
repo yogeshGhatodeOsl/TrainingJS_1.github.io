@@ -21,7 +21,7 @@ post_btn.addEventListener('submit', (input) => {
          expiry: new Date(expiry),
          createdTime : createdTime
      };
- 
+
      Question_arr.push(Data);
 
      document.getElementById("author").value = "";
