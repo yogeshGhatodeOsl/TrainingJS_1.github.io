@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Questions</title>
+
+    <style>
+        a, select, button{
+            text-decoration: none;
+            padding : 0.4rem;
+            border : 1px solid black;
+            margin-bottom: 2rem;
+            margin-right : 1rem;
+        }
+    </style>
+</head>
+
+
+<body>
+    <br> 
+    <a href="./index.html">Add Question</a>
+
+    <select id="select_priority" name="select_priority" required>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+
+    <button id="clear_filter">Clear Filter</button>
+
+
+    <div id="container_question"></div>
+
+    <script src="questions.js"></script>
+</body>
+</html>
